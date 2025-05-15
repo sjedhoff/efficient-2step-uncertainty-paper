@@ -1,0 +1,32 @@
+seed: 4
+surrogate_model: "true_model"
+
+# T-step
+n_sims: 10
+sigma_sim: 0.01
+S: 100
+
+# I-step
+w_exp_gts: -0.05
+sigma_exp: 0.01
+n_exp: 5
+lower_w_exp: -1
+upper_w_exp: 1
+use_clustering:
+ll_weight: 1
+K: 4000
+
+# Iterative
+M_mix: 5
+n_prior: 100
+
+# PCE
+poly_degree: 5
+M: 1
+
+# stan
+refresh_cmdstan: 0
+adapt_delta: 0.99
+chains: 2
+iter_sampling: 100
+iter_warmup: 1000
