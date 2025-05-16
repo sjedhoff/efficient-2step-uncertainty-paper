@@ -71,4 +71,14 @@ draws matrix corresponding to each of the imputed datasets, which are saved in t
 
 ## Citation
 
-
+```bibtex
+@misc{jedhoff2025uncertainty,
+      title={Efficient Uncertainty Propagation in Bayesian Two-Step Procedures}, 
+      author={Svenja Jedhoff and Hadi Kutabi and Anne Meyer and Paul-Christian Bürkner},
+      year={2025},
+      eprint={2505.10510},
+      archivePrefix={arXiv},
+      primaryClass={stat.ME},
+      url={https://arxiv.org/abs/2505.10510}, 
+}
+```
